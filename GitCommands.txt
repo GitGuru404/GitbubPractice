@@ -4,8 +4,8 @@ git init
 - This will make git track the changes made to the working directory. 
 
 // Add files to staging area //
-git add "fileName" // adds specific file to staging
-git add .. //adds all files to staging
+git add fileName // adds specific file to staging
+git add . //adds all files to staging
 git status //Checks status for the working directory
 
 - When creating new files, you will have to add them to the staging area before you can commit them.
@@ -19,5 +19,12 @@ git commit -m "Message" //remember the last part to add a message
 // Track the changes and history //
 git log
 
+- this will get you the entire log. To exit it, hit q on your keyboard
+
 // Roll back changes //
-git checkout
+git checkout fileName
+
+- will roll back the file to the last file committed
+
+// Check the difference between a file and git repository file //
+git diff fileName
