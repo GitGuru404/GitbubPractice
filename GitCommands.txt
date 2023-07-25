@@ -28,3 +28,11 @@ git checkout fileName
 
 // Check the difference between a file and git repository file //
 git diff fileName
+
+
+// You can check out what branch you are on by //
+git branch 
+
+- create and change branch by
+git branch branchName
+git checkout branchName
