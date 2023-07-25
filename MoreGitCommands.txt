@@ -1,0 +1,21 @@
+// Clone git repository //
+- Navigate to the folder in your working directory to where, you want to clone the repository to and then: 
+
+git clone 'repositoryURL'
+
+// Push changes to Git Repository // 
+- You can push local git changes to the git repository by doing: 
+
+git remote add origin 'repositoryURL'
+git branch -M main //if pushing to main branch
+git push -u origin main
+
+// Create .gitignore file //
+touch .gitignore
+
+- a hidden file that tells git what files to ignore. Checkout https://github.com/github/gitignore for usefull templates. 
+
+// Remove files from staging // 
+git rm --cached -r // removes all files
+
+- Relevant in case you have staged something for commit, which should not be committed. 
