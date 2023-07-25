@@ -1,0 +1,23 @@
+// Initialise git repository //
+git init
+
+- This will make git track the changes made to the working directory. 
+
+// Add files to staging area //
+git add "fileName" // adds specific file to staging
+git add .. //adds all files to staging
+git status //Checks status for the working directory
+
+- When creating new files, you will have to add them to the staging area before you can commit them.
+- The staging area is a good place to figure out what you want to ignore and what you want to add. 
+
+// Commit files to git repository //
+git commit -m "Message" //remember the last part to add a message
+
+- Commits the files added in the staging area
+
+// Track the changes and history //
+git log
+
+// Roll back changes //
+git checkout
